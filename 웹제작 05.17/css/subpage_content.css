@@ -1,0 +1,151 @@
+body{
+    font-family: "Noto Sans CJK KR";
+    background: url("/img/typewriter-801921_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#header {
+    width: 9999px;
+    margin: 0 auto;
+    height: 110px;
+    background-size: contain;
+    background-color: white;
+    box-shadow: 0px 3px 3px #dddd;
+    top:0%;
+    position: fixed;
+    margin-left: -20px;
+}
+
+#header .logo {
+    top: 27px;
+    width: 150px;
+    height: 70px;
+    margin-left: 500px;
+    display: inline-block;
+    position: relative;
+}
+
+#header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#header .logo_container {
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    line-height: 100px;
+    width: 746px;
+    height: inherit;
+    background-color: white;
+}
+
+#header .logo_container a {
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 20px;
+    border: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#header .logo_container a:nth-child(1):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(2):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(3):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(4):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(5):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+/*-----------------header-----------------*/
+/*-----------------header-----------------*/
+
+
+#fullbox{
+    margin: 0 auto;
+    width: 1000px;
+    height: 900px;
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 110px;
+    box-shadow: 0px 0px 30px #000;
+    display: block;
+}
+
+#fullbox .contentbox{
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;  
+}
+
+#fullbox .contentbox .title{
+    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+#fullbox .contentbox .title span{
+    font-size: 20px;
+}
+
+#fullbox .contentbox .writer{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#fullbox .contentbox .text{
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+#fullbox .contentbox .comment_Box{
+    width:800px;
+    height: 110px;
+    background-color: #dddd;
+    position: relative;
+}
+
+#fullbox .contentbox textarea{
+    width: 650px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display:inline-block
+}
+
+#fullbox .contentbox .upload{
+    width: 70px;
+    height: 56px;
+    position: absolute;
+    margin-top : 20px;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+
+

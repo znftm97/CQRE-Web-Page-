@@ -1,0 +1,296 @@
+body{
+    font-family: "Noto Sans CJK KR";
+    background: url("/img/poster-2899089_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+#header {
+    width: 9999px;
+    margin: 0 auto;
+    height: 110px;
+    background-size: contain;
+    background-color: white;
+    box-shadow: 0px 3px 3px #dddd;
+    top:0%;
+    position: fixed;
+    margin-left: -20px;
+}
+
+#header .logo {
+    top: 27px;
+    width: 150px;
+    height: 70px;
+    margin-left: 500px;
+    display: inline-block;
+    position: relative;
+}
+
+#header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#header .logo_container {
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    line-height: 100px;
+    width: 746px;
+    height: inherit;
+    background-color: white;
+}
+
+#header .logo_container a {
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 20px;
+    border: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: black;
+}
+
+#header .logo_container a:nth-child(1):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(2):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(3):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(4):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(5):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+/*-----------------header-----------------*/
+/*-----------------header-----------------*/
+
+#content {
+    margin: 0 auto;
+    width: 1000px;
+    height: 900px;
+    z-index: 5;
+    background-color: #282828;
+    margin-top: 110px;
+    box-shadow: 0px 0px 30px #000;
+}
+
+#content .boxContainer{
+    width: 1000px;
+    margin: 0 auto;
+    height: 850px;
+    position: relative;
+    margin-top: -30px;
+}
+
+#content .boxContainer > div{
+    float: left;
+    width: 260px;
+    height: 240px;
+    margin: 25px;
+    margin-left: 28px;
+    margin-top: 100px;
+    border: 10px solid white;
+    cursor: pointer;
+}
+
+#content .boxContainer img{
+    width: 260px;
+    height: 240px;
+    
+}
+
+#content .boxContainer > div > div{
+    width: inherit;
+    height: 49px;
+    border: 10px solid white;
+    margin-top: -5px;
+    text-align: center;
+    border-top: none;
+    background-color: #282828;
+    margin-left:-10px;
+    color: white;
+}
+
+#content .boxContainer > div > form .fa-times{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    display: none;
+}
+
+#content .boxContainer > div span{
+    display: block;
+}
+
+/*사진*//*사진*//*사진*//*사진*/
+/*사진*//*사진*//*사진*//*사진*/
+#content .page {
+    font-size: 0;
+    text-align: center;
+}
+
+#content .page a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+#content .page a:first-child {
+    margin-left: 0px;
+}
+
+#content .page a.bt {
+    border: 1px solid #eee;
+    background: #eee;
+}
+
+#content .page a.num {
+    border: 1px solid #eee;
+    font-weight: 600;
+    color: #eee;
+    font-size: 13px;
+}
+
+#content .page a.num.on {
+    background: #eee;
+    color: white;
+}
+
+#content .page .pageNum{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#content .page > a:nth-child(6){
+    display: none;
+    position: absolute;
+    color: red;
+    margin-left: 350px;
+}
+
+#content .page form{
+    position: absolute;
+    display: inline-block;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+
+#content .fa-search{
+    color: #009DE8;
+}
+
+#content .page form > input{
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/*옆에 갤러리 박스*//*옆에 갤러리 박스*//*옆에 갤러리 박스*/
+/*옆에 갤러리 박스*//*옆에 갤러리 박스*//*옆에 갤러리 박스*/
+#galleryContentBox{
+    position: fixed;
+    left: -900%;
+    overflow: auto;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 0.5s;
+    right: 0;
+    height: 100%;
+    max-width: 800px;
+    z-index: 999;
+    bottom: 0;
+    padding-top: 40px;
+    top: 0;
+    background-color: #141518;
+    margin-top: 110px;
+}
+
+#galleryContentBox.active{
+    left: 0%;
+}
+
+#galleryContentBox .fa-times{
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #111;
+    color: #fff;
+}
+
+#galleryContentBox .picBox{
+    text-align: center;
+}
+
+#galleryContentBox .picBox img{
+    width: 760px;
+    height: 400px;
+}
+
+#galleryContentBox .remainderContentBox{
+    border-top: 1px solid #FFFFFF;
+    width: 760px;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 10px;
+    color: white;
+}
+
+#galleryContentBox .picBox > div{
+    width: 124px;;
+    margin-top : 10px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+
+#galleryContentBox .remainderContentBox .remainderPicBox > div{
+    float: left;
+    width: 200px;
+    height: 140px;
+    border: 1px solid white;
+    margin: 20px; 
+    text-align: center;
+    margin-left: 28px;
+}
+
+#galleryContentBox .remainderContentBox .remainderPicBox > div img{
+    width: inherit;
+    height: 100px;
+    
+}
+
+
+
+
+
+
+
+
