@@ -80,7 +80,7 @@
 }
 
 body{
-    background: url("img/background_dinner2.jpg");
+    background: url("/img/background_dinner2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 110%;
     font-family: "Noto Sans CJK KR";

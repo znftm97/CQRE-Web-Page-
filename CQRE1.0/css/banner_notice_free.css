@@ -841,7 +841,7 @@
         margin-top: -40px;
     }
     
-    #mobile .moblie_notice a{
+    #mobile .moblie_notice > a{
         display: block;
         text-align: center;
         text-decoration: none;
@@ -869,13 +869,14 @@
         margin: 2% 0% 0% 20%;
 }
 
-    #mobile .moblie_notice .moblie_notice_textbox .topic {
+    #mobile .moblie_notice .moblie_notice_textbox a.topic {
         display: inline-block;
         margin-left: 40%;
         height: inherit;
         line-height: inherit;
+        text-decoration: none;
 
-}
+    }
 
     #mobile .moblie_notice .moblie_notice_textbox .date {
         display: inline-block;
@@ -887,7 +888,7 @@
     
     
     
-    #mobile .moblie_team a{
+    #mobile .moblie_team > a{
         display: block;
         text-align: center;
         text-decoration: none;
@@ -920,6 +921,7 @@
         margin-left: 40%;
         height: inherit;
         line-height: inherit;
+        text-decoration: none;
 
     }
 
@@ -931,7 +933,7 @@
     }
     
 
-    #mobile .moblie_free a{
+    #mobile .moblie_free > a{
         display: block;
         text-align: center;
         text-decoration: none;
@@ -964,6 +966,7 @@
         margin-left: 40%;
         height: inherit;
         line-height: inherit;
+        text-decoration: none;
 
 }
 
