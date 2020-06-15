@@ -1,0 +1,80 @@
+body{
+    background-image: url("img/background_dinner2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 170%;
+    font-family: "Noto Sans CJK KR";
+}
+
+.contact {
+    width: 400px;
+    margin: 0 auto;
+    margin-top : 200px;
+    box-shadow: 0 0 15px 3px rgba(0,0,0,.2);
+}
+
+.contact .head {
+    padding: 30px;
+    background-color: #009DE8;
+    color: #fefefe;
+}
+
+.contact .head h3 { 
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.contact form {
+    padding: 30px;
+    background-color: #fff;
+}
+
+.contact form label { 
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    color: black;
+    margin-left: -10px;
+}
+
+.contact form > input {
+    height: 20px;
+    margin-bottom: 20px
+}
+
+.contact form > input{
+    font-size: 15px;
+    margin-left: -10px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #eee;
+}
+
+.contact form button {
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    background: #009DE8;
+    color: #fefefe;
+    cursor: pointer;
+    border: none;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+}
+
+.contact form button:active{
+    transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.contact form > button:last-child{
+    margin-top : 20px;
+}
+
+
