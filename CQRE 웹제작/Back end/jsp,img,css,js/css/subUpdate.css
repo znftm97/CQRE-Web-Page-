@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+body{
+    background: linear-gradient(to bottom left, #bfe0f8, #fff);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Noto Sans CJK KR";
+}
+
+/*-----------------header-----------------*/
+/*-----------------header-----------------*/
+
+#header {
+    width: 102%;
+    height: 110px;
+    background-size: contain;
+    background-color: white;
+    box-shadow: 0px 3px 3px #dddd;
+    top:0%;
+    position: fixed;
+    margin-left: -20px;
+      z-index:1;
+      text-align:center;
+}
+
+#header .header_container{
+   margin: 0 auto;
+   display:inline-block;
+   height : inherit;
+   width : 920px;
+
+}
+
+#header .logo {
+    top: 27px;
+    width: 150px;
+    height: 70px;
+    display: inline-block;
+    position: relative;
+}
+
+#header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#header .logo_container {
+    display: inline-block;
+    position: relative;
+    line-height: 100px;
+    width: 746px;
+    height: inherit;
+ 
+    margin-left:17px;
+}
+
+#header .logo_container a {
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 20px;
+    border: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: black;
+    line-height: 110px;
+    
+}
+
+#header .logo_container a:nth-child(1):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(2):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(3):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(4):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+#header .logo_container a:nth-child(5):hover {
+    border-bottom: 4px solid #009DE8;
+    transition: all .4s;
+}
+
+/*-----------------header-----------------*/
+/*-----------------header-----------------*/
+
+#fullbox{
+    width: 1000px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 30px #000;
+    margin: 0 auto;
+    display: block;
+    margin-top : 110px;
+    height:1000px;
+}
+
+#fullbox .contentbox{
+    width: 800px;
+    height: 700px;
+    margin: 0 auto; 
+    position:relative;
+    border : 1px solid white;
+}
+
+#fullbox .contentbox textarea{
+	border : 0;
+	width : 100%;
+	font-family: "Noto Sans CJK KR";
+}
+
+#fullbox .contentbox div:first-child{
+	width: 100%;
+	height : inherit;
+	border-bottom : 1px solid #009DE8;
+	margin-top : 20px;
+	font-size : 20px;
+	font-weight : bold;
+	padding-left : 10px;
+}
+
+#fullbox .contentbox .content{
+	width: 100%;
+	height : inherit;
+	border-bottom : 1px solid #009DE8;
+	margin-top : 50px;
+	font-size : 20px;
+	font-weight : bold;
+	padding-left : 10px;
+}
+
+#fullbox .contentbox .title_put{
+	width : 99%;
+	height : 25px;
+	display : block;
+	margin-top : 20px;
+	box-shadow:1px 1px 1px 1px #dddddd;
+	border:none;
+	background-color:white;
+	margin-bottom : 20px;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+#fullbox .contentbox .file{
+	margin-top : 10px;
+}
+
+#fullbox .contentbox .content_put{
+	width : 99%;
+	height : 500px;
+	display : block;
+	margin-top : 20px;
+	border: 1px solid #dddddd;
+    box-shadow: 2px 2px 2px 2px #eee;
+    padding : 10px;
+    font-size: 16px;
+    
+}
+
+#fullbox .contentbox .ok{
+	box-shadow:1px 1px 1px 1px #dddddd;
+	border:none;
+	background-color:white;
+	width:50px;
+	height:30px;
+	margin : 0 auto;
+	display: block;
+	margin-top: 10px;
+}
+
+#fullbox .contentbox input[type="file"]{
+    position: absolute;
+    clip:rect(0,0,0,0); 
+    overflow : hidden;
+    border: 0;
+}
+
+#fullbox .contentbox label{
+    display: inline-block; 
+    padding: .5em .75em; 
+    color: whitesmoke; 
+    font-size: inherit; 
+    line-height: normal; 
+    vertical-align: middle; 
+    background-color: dodgerblue; 
+    cursor: pointer; 
+    border: 1px solid dodgerblue; 
+    border-radius: .25em;
+    position:relative;
+    float : right;
+    height:22px;
+    right:2%;
+    margin-top : 10px;
+}
+
+
+#fullbox .contentbox .filename{
+	display:block;
+    border-collapse: collapse;
+    width:36px;
+    border-style:none;
+    width: 800px;
+    font-size:13px;
+    padding-left:10px;
+}
+
+
+
+
+
+
+
+
+#mobile{
+    display: none;
+}
+
+@media (max-width: 1281px){
+    body{
+        background: none;
+    }
+    
+    #wrap #header{
+        display: none;
+    }
+    
+    #mobile{
+        display: block;
+    }
+    #mobile .menu-toggle .fa-list{
+        font-size: 40px;
+        margin-left: 10px;
+        cursor: pointer;
+        position: absolute;
+    }
+    
+    #mobile .menu-toggle img{
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-top:20px;
+    }
+    
+    #mobile .main-menu ul li {
+        width: 100%;
+        border: none;
+        position: relative;
+	}
+	
+	#mobile .menu-toggle {
+	    display: block;
+	}
+	
+	#mobile .main-menu {
+	    position: fixed;
+	    left: -400px;
+	    overflow: auto;
+	    -webkit-transition: all 0.3s;
+	    -moz-transition: all 0.3s;
+	    transition: all 0.3s;
+	    right: 0;
+	    height: 100%;
+	    max-width: 300px;
+	    z-index: 999;
+	    bottom: 0;
+	    padding-top: 40px;
+	    top: 0;
+	    background-color: #0066b3;
+	}
+	
+	#mobile .main-menu.active {
+	    left: 0%;
+	}
+	
+	#mobile .top-close-menu {
+	    text-align: center;
+        line-height: 38px;
+	    position: absolute;
+	    top: 0;
+	    z-index: 3;
+	    right: 0;
+	    width: 35px;
+	    height: 35px;
+	    background-color: #111;
+	    background-size: 12px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+        color: #fff;
+	}
+    #mobile .main-menu.active {
+        left: 0%;
+    }
+
+    #mobile .main-menu ul li {
+        width: 100%;
+        border: none;
+        position: relative;
+    }
+    #mobile .main-menu ul li a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        padding: 8px 20px;
+        border-bottom: 1px solid #fff;
+    }
+
+    #mobile .main-menu ul{
+        padding:0;
+        margin:0;
+    }
+    
+    #fullbox{
+        margin: 0;
+        margin-top: 40px;
+    }
+    
+}
+
+
