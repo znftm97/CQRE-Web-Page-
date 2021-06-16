@@ -1,5 +1,5 @@
 # CQRE Web Page
 
-- http://schcqre.com/main
+- http://t1faker.cafe24.com/main
 
 
